@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black ;
+    font-family: 'Lobster', cursive;
+
+}
+nav a{
+    display: flex;
+    justify-content: center;
+
+}
+.nav-nav{
+    color: orange;
+}
+.navbar-toggler{
+    color: white;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.btn0{
+    outline: none;
+    height: 50px;
+    width: 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: orange;
+    color:white;
+    font-weight: 700;
+}
+.btn0:hover{
+    background-color: rgb(225, 86, 11);
+}
+.search{
+    height: 50px;
+    width: 300px;
+    border-radius: 40px;
+    outline: none;
+    margin-right: -45px;
+    font-family: 'Rubik', sans-serif;
+    border: 3px solid orange;
+}
+.btn3{
+    height: 55px;
+    width: 150px;
+    border: none;
+    outline:none;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn3:hover{
+    background-color: rgb(225, 86, 11);
+    transition: 0.8ms;
+}
+.btn1{
+    padding: 1.3em 3em;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: black;
+    background-color: purple;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.1);
+    transition: all 0.3 ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.btn1:hover{
+    background-color: rgb(53, 64, 153);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: black;
+    transform: translateY(-3px);
+}
+.btn1:active{
+    transform: translateY(-1px);
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(255,255,255,0.69);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(255,255,255,0.69);
+-moz-box-shadow: -2px -1px 25px -4px rgba(255,255,255,0.69);
+}
+.apple{
+    background: url(aboutus.png) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.apple h1{
+    font-family: 'Lobster', cursive;
+}
+.info{
+    background-color: black;
+    color: orange;
+}
